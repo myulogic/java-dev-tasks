@@ -5,7 +5,7 @@ Create Spring Boot Application to take local file path of the provided sample Ex
 
 1. Parse/extract data from the two worksheets in the Excel file
 
-2. Load parsed/extracted data into MongoDB collections (with Sheet name, Column header, the number values, etc.,) such that the result needed in the second task is possible
+2. Load parsed/extracted data (like Sheet name, Column header, the number values, etc.,) into any NoSQL DB (preferable MongoDB) such that the result needed in the second task is possible
 
 3. Handle error scenarios like file missing in the path, Parser exceptions (non-numeric characters in number columns), etc., with an appropriate error response with proper logging in a log file
 
